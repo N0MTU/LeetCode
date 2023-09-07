@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool hasCycle(ListNode *head) {
-       //oh it's a Floyd thing? Acab
+       //oh it's a Floyd thing?
         ListNode* slow = head;
         ListNode* fast = head;
         while (fast != nullptr && fast->next != nullptr) {
